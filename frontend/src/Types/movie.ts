@@ -5,7 +5,6 @@ export type Movie = {
     count: number;
     image: string;
 }
-
 export type MoviePage = {
     content: Movie[];
     last: boolean;
